@@ -1,0 +1,2 @@
+#python data_process.py --data_path /Users/maomin/programs/git_code/rat-sql/data/spider/train_spider.json  --table_path   /Users/maomin/programs/git_code/rat-sql/data/spider/tables.json  --output "process_data.json"
+python sql2SemQL.py --data_path process_data.json --table_path /Users/maomin/programs/git_code/rat-sql/data/spider/tables.json --output semql_datas.json
